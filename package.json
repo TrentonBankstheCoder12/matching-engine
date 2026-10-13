@@ -1,0 +1,21 @@
+{
+  "name": "matching-engine",
+  "version": "1.0.0",
+  "description": "Limit order book and matching engine with price-time priority",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "demo": "tsx src/demo.ts",
+    "bench": "tsx src/bench.ts",
+    "lint": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}
